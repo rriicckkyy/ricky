@@ -1,0 +1,22 @@
+package helloworld;
+
+public class Main {
+    public static void main(String[] args) {
+        //gibt Hello world aus
+
+        for (int zaehler = 0; zaehler <= 10; zaehler++) {
+
+
+            Ausgeben(zaehler);
+        }
+    }
+
+    /*
+    Ziel: Ausgabe des Textes (parameter)
+    Parameter: Auszugebender Text
+     */
+
+    public static void Ausgeben(int text) {
+        System.out.println(text);
+    }
+}
